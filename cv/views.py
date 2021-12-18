@@ -1,3 +1,10 @@
+from django import http
 from django.shortcuts import render
+from django.http import HttpResponse
 
 # Create your views here.
+def index(request):
+    return HttpResponse("This is a application about resume building")
+
+def about(request):
+    return HttpResponse("This is an about page")
