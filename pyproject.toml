@@ -6,6 +6,8 @@ authors = ["Chiko liu"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+Django = "^4.0"
+black = "^21.12b0"
 
 [tool.poetry.dev-dependencies]
 
